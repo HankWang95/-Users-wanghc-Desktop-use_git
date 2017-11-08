@@ -2,4 +2,4 @@
 -使用git init 创建git仓库
 -使用git add readme.txt 向git仓库添加文件
 -使用git commit -m "log" 提交修改
--准备回溯
+-准备回溯 git reset --hard HEAD^ (or hash )
