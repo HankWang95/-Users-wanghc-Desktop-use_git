@@ -38,3 +38,4 @@
 - 配置别名 git config --global alias.last 'log -1' 这样输入 git last == git log -1
 也可以直接修改配置文件
 仓库的Git配置文件都放在.git/config
+- git commit --amend可以修改最近的log信息
