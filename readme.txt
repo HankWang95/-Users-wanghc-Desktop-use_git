@@ -29,3 +29,12 @@
 如果合并有冲突，则解决冲突，并在本地提交；
 没有冲突或者解决掉冲突后，再用git push origin branch-name推送就能成功！
 如果git pull提示“no tracking information”，则说明本地分支和远程分支的链接关系没有创建，用命令git branch --set-upstream branch-name origin/branch-name。
+
+-使用 git tag -a <tagname> -m "说明" (commit id) 来创建一个标签
+
+-忽略某些文件时，需要编写.gitignore；
+.gitignore文件本身要放到版本库里，并且可以对.gitignore做版本管理
+
+-配置别名 git config --global alias.last 'log -1' 这样输入 git last == git log -l
+也可以直接修改配置文件
+仓库的Git配置文件都放在.git/config
